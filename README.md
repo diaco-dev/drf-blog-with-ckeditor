@@ -44,7 +44,7 @@ A feature-rich blog backend built with **Django Rest Framework** and integrated 
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/drf-blog-with-ckeditor.git
+   git clone https://github.com/diaco-dev/drf-blog-with-ckeditor.git
    cd drf-blog-with-ckeditor
   
 2. **Create and activate virtual environment**
