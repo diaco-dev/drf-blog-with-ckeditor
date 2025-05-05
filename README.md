@@ -22,9 +22,9 @@ A feature-rich blog backend built with **Django Rest Framework** and integrated 
 
 ---
 
-## 📸 Screenshots
+## 📸 Admin Panel
 
-> You can add screenshots here of the admin panel, Postman examples, or API docs (Swagger).
+![Use Case Diagram](img.png)
 
 ---
 
