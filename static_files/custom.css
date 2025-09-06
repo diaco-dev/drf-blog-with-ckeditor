@@ -1,0 +1,123 @@
+/* استایل‌های اختصاصی برای محتوای قابل ویرایش */
+.ck-content {
+    /* پس‌زمینه و رنگ متن */
+    background-color: hsl(0, 0%, 97%); /* پس‌زمینه روشن برای خوانایی */
+    color: hsl(0, 0%, 20%); /* رنگ متن تیره برای خوانایی */
+
+    /* اندازه فونت و فاصله‌ها */
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 10px;
+    border-radius: 4px;
+
+    /* استایل پاراگراف‌ها */
+    p {
+        margin: 10px 0;
+        color: hsl(0, 0%, 20%);
+    }
+
+    /* استایل سرتیترها */
+    h1 {
+        color: hsl(4, 90%, 58%); /* قرمز از customColorPalette */
+        font-size: 2em;
+        margin: 20px 0 10px;
+    }
+    h2 {
+        color: hsl(340, 82%, 52%); /* صورتی */
+        font-size: 1.5em;
+        margin: 15px 0 10px;
+    }
+    h3 {
+        color: hsl(291, 64%, 42%); /* بنفش */
+        font-size: 1.17em;
+        margin: 12px 0 10px;
+    }
+
+    /* استایل لیست‌ها */
+    ul, ol {
+        padding-left: 20px;
+        margin: 10px 0;
+    }
+    li {
+        color: hsl(0, 0%, 30%);
+    }
+
+    /* استایل نقل‌قول‌ها */
+    blockquote {
+        border-left: 4px solid hsl(208, 90%, 54%); /* آبی */
+        padding-left: 10px;
+        color: hsl(0, 0%, 40%);
+        font-style: italic;
+        margin: 10px 0;
+    }
+
+    /* استایل کدها */
+    code {
+        background-color: hsl(0, 0%, 90%);
+        padding: 2px 6px;
+        border-radius: 4px;
+        color: hsl(0, 0%, 20%);
+    }
+    pre {
+        background-color: hsl(0, 0%, 90%);
+        padding: 10px;
+        border-radius: 4px;
+        overflow-x: auto;
+        color: hsl(0, 0%, 20%);
+    }
+
+    /* استایل جدول‌ها */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 10px 0;
+    }
+    td, th {
+        border: 1px solid hsl(0, 0%, 80%);
+        padding: 8px;
+        background-color: hsl(0, 0%, 98%);
+        color: hsl(0, 0%, 20%);
+    }
+    th {
+        background-color: hsl(0, 0%, 90%);
+    }
+
+    /* استایل تصاویر */
+    img {
+        max-width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+    figure {
+        margin: 10px 0;
+        text-align: center;
+    }
+    figcaption {
+        color: hsl(0, 0%, 60%);
+        font-size: 12px;
+    }
+
+    /* استایل لینک‌ها */
+    a {
+        color: hsl(190, 100%, 45%);
+        text-decoration: underline;
+    }
+    a:hover {
+        color: hsl(190, 100%, 55%);
+    }
+
+    /* استایل‌های اضافی برای غنای بیشتر */
+    .info-box {
+        border: 1px solid hsl(207, 90%, 54%);
+        padding: 10px;
+        background-color: hsl(207, 90%, 96%);
+        color: hsl(207, 90%, 20%);
+        border-radius: 4px;
+    }
+    .category {
+        background-color: hsl(120, 100%, 30%);
+        padding: 2px 6px;
+        border-radius: 4px;
+        color: hsl(120, 100%, 90%);
+    }
+}
