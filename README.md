@@ -3,9 +3,8 @@
 A feature-rich blog backend built with **Django Rest Framework** and integrated **CKEditor** for rich text editing. This project is designed to showcase modular, scalable, and production-ready API development using Django.
 
 ![Python](https://img.shields.io/badge/python-3.10-blue)
-![Django](https://img.shields.io/badge/django-4.2-green)
-![DRF](https://img.shields.io/badge/DRF-3.14-orange)
-![License](https://img.shields.io/github/license/YOUR_USERNAME/drf-blog-with-ckeditor)
+![Django](https://img.shields.io/badge/django-5.2.3-green)
+![DRF](https://img.shields.io/badge/DRF-3.16-orange)
 
 ---
 
@@ -35,9 +34,8 @@ A feature-rich blog backend built with **Django Rest Framework** and integrated 
 - **Django Rest Framework**
 - **django-ckeditor**
 - **Simple JWT**
-- **PostgreSQL** (or SQLite for development)
+- **PostgreSQL**
 - **Docker & Docker Compose**
-
 ---
 
 ## 🧑‍💻 Installation
